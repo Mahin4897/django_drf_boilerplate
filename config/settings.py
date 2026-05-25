@@ -157,7 +157,7 @@ ACCOUNT_SIGNUP_FIELDS = [
     "last_name*",
 ]
 
-
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:3003",
@@ -168,12 +168,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://10.78.175.62:3003",
     "http://localhost:3003",
     "http://127.0.0.1:3003",
-    "https://presentation.dctzen.xyz",
-    "https://showcase.dctzen.xyz",
-    "https://apiwarptexbd.dctzen.xyz",
-    "https://www.apiwarptexbd.dctzen.xyz",
-    "https://warptexbd.com",
-    "https://www.warptexbd.com",
 ]
 
 CORS_ORIGIN_WHITELIST = [
@@ -186,12 +180,6 @@ CORS_ORIGIN_WHITELIST = [
     "http://10.78.175.62:3003",
     "http://localhost:3003",
     "http://127.0.0.1:3003",
-    "https://presentation.dctzen.xyz",
-    "https://showcase.dctzen.xyz",
-    "https://apiwarptexbd.dctzen.xyz",
-    "https://www.apiwarptexbd.dctzen.xyz",
-    "https://warptexbd.com",
-    "https://www.warptexbd.com",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -204,12 +192,6 @@ CSRF_TRUSTED_ORIGINS = [
     "http://10.78.175.62:3003",
     "http://localhost:3003",
     "http://127.0.0.1:3003",
-    "https://presentation.dctzen.xyz",
-    "https://showcase.dctzen.xyz",
-    "https://apiwarptexbd.dctzen.xyz",
-    "https://www.apiwarptexbd.dctzen.xyz",
-    "https://warptexbd.com",
-    "https://www.warptexbd.com",
 ]
 
 # Must Disable the next 4 Lines when in full production
